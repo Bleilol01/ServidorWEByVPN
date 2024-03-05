@@ -26,35 +26,33 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="#home">Home</a>
+                    <a class="nav-link" href="#home">Inicio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#about">About</a>
+                    <a class="nav-link" href="#requisitos">Servidor Web</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#about14">about14</a>
+                    <a class="nav-link" href="#about14">Servidor VPN</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#book-table">Book-Table</a>
-                </li>
+                
             </ul>
             <a class="navbar-brand m-auto" href="#">
                 <img src="assets/imgs/logo.svg" class="brand-img" alt="">
                 <span class="brand-txt">Servidor Web y Servidor VPN</span>
             </a>
             <ul class="navbar-nav">
+                
                 <li class="nav-item">
-                    <a class="nav-link" href="#blog">Blog<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#TITULO">Requisitos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#testmonial">Reviews</a>
+                    <a class="nav-link" href="#ultimo">Conclusiones</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact Us</a>
-                </li>
-                <li class="nav-item">
+                <!-- 
+                <li class="nav-item">   
                     <a href="components.html" class="btn btn-primary ml-xl-4">Components</a>
                 </li>
+                -->
             </ul>
         </div>
     </nav>
@@ -67,6 +65,49 @@
         </div>
     </header>
 
+ 
+<!--  TITULO Section  -->
+<div id="TITULO" class="text-center bg-dark text-light has-height-md middle-items wow fadeIn">
+    <h2 class="section-title">GUIA INSTALACIÓN SERVIDOR WEB Y SERVIDOR VPN EN WINDOWS SERVER</h2>
+
+</div>
+
+    <!--  requisitos Section  -->
+    <div id="requisitos" class="text-center bg-dark text-light has-height-md middle-items wow fadeIn">
+        <h2 class="section-title">Requisitos previos</h2>
+        <h3 class="mb-4">¿Que requisitos previos se necesitan para instalar un servidor Web y el servidor VPN en windows server?</h3>
+        <p>Los requisitos necesarios para configurar adecuadamente el servidor son:</p>
+
+        <ul>
+          <li>Sistema Operativo Compatible</li>
+          <li>Hardware Suficiente</li>
+          <li>Conexión a Internet Estable</li>
+          <li>IP Estática o Configuración de DNS</li>
+          <li>Software Antivirus y Antimalware</li>
+          <li>IIS y Componentes Adicionales (opcional)</li>
+          <li>Certificado SSL (Opcional)</li>
+          <li>Configuración de Red.- asignacion de una dirección IP, configurar la puerta de enlace y el servidor DNS según sea necesario.</li>
+        </ul>
+        
+        
+        
+    </div>
+
+    <!--  subtitulo1 Section  -->
+    <div id="servidorweb" class="text-center bg-dark text-light has-height-md middle-items wow fadeIn">
+        <h2 class="section-title">SERVIDOR WEB (IIS)</h2>
+        <p class="mb-4">IIS, o Internet Information Services, es un conjunto de servicios de servidor web desarrollado por Microsoft para sistemas operativos Windows. 
+            Proporciona una plataforma sólida y flexible para alojar, administrar y servir aplicaciones web y servicios.</p>
+    </div>
+
+
+    <!--  subtitulo1 Section  -->
+    <div class="bg-dark text-light text-center border-top wow fadeIn" style="margin-bottom: 0.5cm;">
+        <h4 class="mb-4">¿COMO INSTALAR EL SERVIDOR WEB (IIS) EN WINDOWS SERVER?</h4>
+    </div>
+
+
+
     <!--  About Section  11111111111111 -->
     <div id="about" class="container-fluid wow fadeIn" id="about" data-wow-duration="1.5s">
         <div class="row">
@@ -74,11 +115,10 @@
             <div class="col-lg-6">
                 <div class="row justify-content-center">
                     <div class="col-sm-8 py-5 my-5">
-                        <h2 class="mb-4">Abre el Administrador del servidor</h2>
+                        <h2 class="mb-4">1.	Abre el Administrador del servidor: </h2>
 
                         <p>
-                            Presiona la tecla Windows + X y selecciona "Administrador del servidor", selecciona o haz click en roles y caracteristicas
-
+                            Para comenzar, presiona la combinación de teclas Windows + X y selecciona la opción "Administrador del servidor". Luego, haz clic en "Agregar roles y características".
                         </p>
                     </div>
                 </div>
@@ -101,11 +141,10 @@
             <div class="col-lg-6">
                 <div class="row justify-content-center">
                     <div class="col-sm-8 py-5 my-5">
-                        <h2 class="mb-4">Instala roles y características:</h2>
+                        <h2 class="mb-4">2.	Asistente para agregar roles y características: </h2>
 
                         <p>
-                            En el Administrador del servidor, haz clic en "Administrar"
-                            y selecciona "Agregar roles y características".
+                            En la primera pantalla del asistente, simplemente haz clic en "Siguiente" para avanzar al siguiente paso.
                         </p>
                     </div>
                 </div>
@@ -127,14 +166,10 @@
             <div class="col-lg-6">
                 <div class="row justify-content-center">
                     <div class="col-sm-8 py-5 my-5">
-                        <h2 class="mb-4">Asistente para agregar roles y características:</h2>
+                        <h2 class="mb-4">3.	Tipo de instalación: </h2>
 
-                        <p></p>Haz clic en "Siguiente" en la primera pantalla del asistente.
-                        Selecciona "Instalación basada en características o roles" y haz clic en "Siguiente".
-
-                        ...................................................................................................................................
-                        .
-
+                        <p>Selecciona la opción "Instalación basada en características o roles" y continúa haciendo clic en "Siguiente".
+    </p>
                     </div>
                 </div>
             </div>
@@ -155,13 +190,10 @@
             <div class="col-lg-6">
                 <div class="row justify-content-center">
                     <div class="col-sm-8 py-5 my-5">
-                        <h2 class="mb-4">444444444:</h2>
+                        <h2 class="mb-4">4.	Selecciona el servidor: </h2>
 
-                        <p></p>Haz clic en "Siguiente" en la primera pantalla del asistente.
-                        Selecciona "Instalación basada en características o roles" y haz clic en "Siguiente".
-
-                        ...................................................................................................................................
-                        .
+                        <p>Asegúrate de que tu servidor esté seleccionado en esta etapa y haz clic en "Siguiente" para avanzar al siguiente paso.
+                        </p>
 
                     </div>
                 </div>
@@ -184,9 +216,9 @@
             <div class="col-lg-6">
                 <div class="row justify-content-center">
                     <div class="col-sm-8 py-5 my-5">
-                        <h2 class="mb-4">About Us222222222222</h2>
+                        <h2 class="mb-4">5.	Roles de servidor: </h2>
 
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos ab itaque modi, reprehenderit fugit soluta, molestias optio repellat incidunt iure sed deserunt nemo magnam rem explicabo vitae. Cum, nostrum, quidem.</p>
+                        <p>En la lista de roles, busca y selecciona "Servicios de servidor web (IIS)".</p>
                     </div>
                 </div>
             </div>
@@ -207,9 +239,9 @@
             <div class="col-lg-6">
                 <div class="row justify-content-center">
                     <div class="col-sm-8 py-5 my-5">
-                        <h2 class="mb-4">About Us222222222222</h2>
+                        <h2 class="mb-4">6.	Características requeridas: </h2>
 
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos ab itaque modi, reprehenderit fugit soluta, molestias optio repellat incidunt iure sed deserunt nemo magnam rem explicabo vitae. Cum, nostrum, quidem.</p>
+                        <p>Marca la casilla correspondiente y luego haz clic en "Agregar características" para asegurarte de tener todo lo necesario. Luego, continúa con "Siguiente".</p>
                     </div>
                 </div>
             </div>
@@ -230,9 +262,9 @@
             <div class="col-lg-6">
                 <div class="row justify-content-center">
                     <div class="col-sm-8 py-5 my-5">
-                        <h2 class="mb-4">About Us7777777777</h2>
+                        <h2 class="mb-4">7.	Roles de servidor: </h2>
 
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos ab itaque modi, reprehenderit fugit soluta, molestias optio repellat incidunt iure sed deserunt nemo magnam rem explicabo vitae. Cum, nostrum, quidem.</p>
+                        <p>Una vez completado lo anterior, haz clic en "Siguiente" para avanzar al siguiente paso del asistente.</p>
                     </div>
                 </div>
             </div>
@@ -254,9 +286,9 @@
             <div class="col-lg-6">
                 <div class="row justify-content-center">
                     <div class="col-sm-8 py-5 my-5">
-                        <h2 class="mb-4">About Us888888888</h2>
+                        <h2 class="mb-4">8.	Características: </h2>
 
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos ab itaque modi, reprehenderit fugit soluta, molestias optio repellat incidunt iure sed deserunt nemo magnam rem explicabo vitae. Cum, nostrum, quidem.</p>
+                        <p>Continúa con "Siguiente" sin seleccionar características adicionales, ya que las predeterminadas son más que suficientes para agregar una página web sencilla.</p>
                     </div>
                 </div>
             </div>
@@ -277,9 +309,9 @@
             <div class="col-lg-6">
                 <div class="row justify-content-center">
                     <div class="col-sm-8 py-5 my-5">
-                        <h2 class="mb-4">About Us9999999999</h2>
+                        <h2 class="mb-4">9.	Rol de servidor web (IIS): </h2>
 
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos ab itaque modi, reprehenderit fugit soluta, molestias optio repellat incidunt iure sed deserunt nemo magnam rem explicabo vitae. Cum, nostrum, quidem.</p>
+                        <p>Haz clic en "Siguiente" para avanzar específicamente con la instalación del rol de servidor web (IIS).</p>
                     </div>
                 </div>
             </div>
@@ -300,9 +332,9 @@
             <div class="col-lg-6">
                 <div class="row justify-content-center">
                     <div class="col-sm-8 py-5 my-5">
-                        <h2 class="mb-4">About Us10101010</h2>
+                        <h2 class="mb-4">10. Servicios de rol: </h2>
 
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos ab itaque modi, reprehenderit fugit soluta, molestias optio repellat incidunt iure sed deserunt nemo magnam rem explicabo vitae. Cum, nostrum, quidem.</p>
+                        <p>Antes de proceder, revisa tu selección y, si está correcta, haz clic en "Siguiente".</p>
                     </div>
                 </div>
             </div>
@@ -324,9 +356,9 @@
             <div class="col-lg-6">
                 <div class="row justify-content-center">
                     <div class="col-sm-8 py-5 my-5">
-                        <h2 class="mb-4">About Us11 1 11 1 11</h2>
+                        <h2 class="mb-4">11. Confirmación: </h2>
 
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos ab itaque modi, reprehenderit fugit soluta, molestias optio repellat incidunt iure sed deserunt nemo magnam rem explicabo vitae. Cum, nostrum, quidem.</p>
+                        <p>Confirma la instalación haciendo clic en "Instalar". El asistente llevará a cabo la instalación de IIS y las características relacionadas, este proceso puede tardar unos minutos, así que ten paciencia.</p>
                     </div>
                 </div>
             </div>
@@ -347,9 +379,9 @@
             <div class="col-lg-6">
                 <div class="row justify-content-center">
                     <div class="col-sm-8 py-5 my-5">
-                        <h2 class="mb-4">About Us12 12 12 12</h2>
+                        <h2 class="mb-4">12. Confirma la instalación exitosa: </h2>
 
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos ab itaque modi, reprehenderit fugit soluta, molestias optio repellat incidunt iure sed deserunt nemo magnam rem explicabo vitae. Cum, nostrum, quidem.</p>
+                        <p>Una vez completada la instalación, verás un mensaje indicando que la instalación fue exitosa. Haz clic en "Cerrar" para finalizar.</p>
                     </div>
                 </div>
             </div>
@@ -370,9 +402,9 @@
             <div class="col-lg-6">
                 <div class="row justify-content-center">
                     <div class="col-sm-8 py-5 my-5">
-                        <h2 class="mb-4">About Us13 13 13 13</h2>
+                        <h2 class="mb-4">13. Verifica la instalación: </h2>
 
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos ab itaque modi, reprehenderit fugit soluta, molestias optio repellat incidunt iure sed deserunt nemo magnam rem explicabo vitae. Cum, nostrum, quidem.</p>
+                        <p>Confirma la presencia de IIS en el panel de administrador del servidor.</p>
                     </div>
                 </div>
             </div>
@@ -393,9 +425,9 @@
             <div class="col-lg-6">
                 <div class="row justify-content-center">
                     <div class="col-sm-8 py-5 my-5">
-                        <h2 class="mb-4">About Us14 14 14</h2>
+                        <h2 class="mb-4">14. Verifica la instalación: </h2>
 
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos ab itaque modi, reprehenderit fugit soluta, molestias optio repellat incidunt iure sed deserunt nemo magnam rem explicabo vitae. Cum, nostrum, quidem.</p>
+                        <p>Abre un navegador web y escribe la dirección IP de tu servidor o el nombre de dominio que hayas asignado. Si la instalación fue exitosa, deberías visualizar la página predeterminada de IIS.</p>
                     </div>
                 </div>
             </div>
@@ -410,49 +442,211 @@
 
 
 
-    <!--  gallary Section  -->
-    <div id="gallary" class="text-center bg-dark text-light has-height-md middle-items wow fadeIn">
-        <h2 class="section-title">OUR MENU</h2>
-    </div>
-    <div class="gallary row">
-        <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
-            <img src="assets/imgs/gallary-1.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
-            <a href="#" class="gallary-overlay">
-                <i class="gallary-icon ti-plus"></i>
-            </a>
-        </div>
-        <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
-            <img src="assets/imgs/gallary-2.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
-            <a href="#" class="gallary-overlay">
-                <i class="gallary-icon ti-plus"></i>
-            </a>
-        </div>
-        <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
-            <img src="assets/imgs/gallary-3.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
-
-        </div>
-        <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
-            <img src="assets/imgs/gallary-3.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
-
-        </div>
-        <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
-            <img src="assets/imgs/gallary-3.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
-
-        </div>
-
-
-
+    <!--  VPNVPN Section  -->
+    <div id="servidorvpn" class="text-center bg-dark text-light has-height-md middle-items wow fadeIn">
+        <h2 class="section-title">SERVIDOR VPN</h2>
+        <p>El servicio VPN recurre a la conectividad de Internet y combina tecnologías de tunelización y cifrado de datos para conectarse a clientes y oficinas remotos.</p>
     </div>
 
+    <!--  About Section  11111111111111 -->
+    <div id="about" class="container-fluid wow fadeIn" id="about" data-wow-duration="1.5s">
+        <div class="row">
+            <div class="col-lg-6 has-img-bg21"></div>
+            <div class="col-lg-6">
+                <div class="row justify-content-center">
+                    <div class="col-sm-8 py-5 my-5">
+                        <h2 class="mb-4">1.-Tener instalado el acceso remoto y las herramientas de DirectAccess, VPN Y Enrutamiento.</h2>
+
+                        <p>
+                            
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- page footer 111 -->
+
+    <div class="bg-dark text-light text-center border-top wow fadeIn" style="margin-bottom: 0.5cm;">
+        <p class="mb-0 py-3 text-muted small">........................</p>
+    </div>
+
+
+
+    <!--  About Section  22222////////////// -->
+    <div id="about" class="container-fluid wow fadeIn" id="about" data-wow-duration="1.5s">
+        <div class="row">
+            <div class="col-lg-6 has-img-bg22"></div>
+            <div class="col-lg-6">
+                <div class="row justify-content-center">
+                    <div class="col-sm-8 py-5 my-5">
+                        <h2 class="mb-4">2.- después nos dirigimos a enrutamiento y acceso remoto.</h2>
+
+                        <p>
+                            
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- page footer 111 -->
+
+    <div class="bg-dark text-light text-center border-top wow fadeIn" style="margin-bottom: 0.5cm;">
+        <p class="mb-0 py-3 text-muted small">........................</p>
+    </div>
+
+    <!--  About Section  33333333333333 -->
+    <div id="about" class="container-fluid wow fadeIn" id="about" data-wow-duration="1.5s">
+        <div class="row">
+            <div class="col-lg-6 has-img-bg23"></div>
+            <div class="col-lg-6">
+                <div class="row justify-content-center">
+                    <div class="col-sm-8 py-5 my-5">
+                        <h2 class="mb-4">3.- Damos click derecho a nuestro servidor a la opción de Configurar y habilitar Enrutamiento y acceso remoto.</h2>
+
+                        <p>
+                         
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- page footer 111 -->
+
+    <div class="bg-dark text-light text-center border-top wow fadeIn" style="margin-bottom: 0.5cm;">
+        <p class="mb-0 py-3 text-muted small">........................</p>
+    </div>
+
+
+    <!--  About Section  444444444 -->
+    <div id="about" class="container-fluid wow fadeIn" id="about" data-wow-duration="1.5s">
+        <div class="row">
+            <div class="col-lg-6 has-img-bg24"></div>
+            <div class="col-lg-6">
+                <div class="row justify-content-center">
+                    <div class="col-sm-8 py-5 my-5">
+                        <h2 class="mb-4">4.-le damos a siguiente después le damos a la opción de acceso a red privada virtual (VPN) y NAT.</h2>
+
+                        <p>
+                           
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- page footer 111 -->
+
+    <div class="bg-dark text-light text-center border-top wow fadeIn" style="margin-bottom: 0.5cm;">
+        <p class="mb-0 py-3 text-muted small">........................</p>
+    </div>
+
+
+
+    <!--  About Section  555555555555555 -->
+    <div id="about" class="container-fluid wow fadeIn" id="about" data-wow-duration="1.5s">
+        <div class="row">
+            <div class="col-lg-6 has-img-bg25"></div>
+            <div class="col-lg-6">
+                <div class="row justify-content-center">
+                    <div class="col-sm-8 py-5 my-5">
+                        <h2 class="mb-4">5.- seleccionamos la opción la cual tenga salida a internet en este caso la WAN.</h2>
+
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- page footer 111 -->
+
+    <div class="bg-dark text-light text-center border-top wow fadeIn" style="margin-bottom: 0.5cm;">
+        <p class="mb-0 py-3 text-muted small">........................</p>
+    </div>
+
+    <!--  About Section  666666666666666 -->
+    <div id="about" class="container-fluid wow fadeIn" id="about" data-wow-duration="1.5s">
+        <div class="row">
+            <div class="col-lg-6 has-img-bg26"></div>
+            <div class="col-lg-6">
+                <div class="row justify-content-center">
+                    <div class="col-sm-8 py-5 my-5">
+                        <h2 class="mb-4">6.-La asignación de IP se hará de forma automática.</h2>
+
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- page footer 111 -->
+
+    <div class="bg-dark text-light text-center border-top wow fadeIn" style="margin-bottom: 0.5cm;">
+        <p class="mb-0 py-3 text-muted small">........................</p>
+    </div>
+
+
+    <!--  About Section  722277777 -->
+    <div id="about" class="container-fluid wow fadeIn" id="about" data-wow-duration="1.5s">
+        <div class="row">
+            <div class="col-lg-6 has-img-bg27"></div>
+            <div class="col-lg-6">
+                <div class="row justify-content-center">
+                    <div class="col-sm-8 py-5 my-5">
+                        <h2 class="mb-4">7.-le damos a la opción de ''No, usar Enrutamiento y acceso remoto para autenticar las solicitudes de conexión'' porque no usaremos ningún tipo de servidor RADIUS.
+                        </h2>
+
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- page footer 111 -->
+
+    <div class="bg-dark text-light text-center border-top wow fadeIn" style="margin-bottom: 0.5cm;">
+        <p class="mb-0 py-3 text-muted small">........................</p>
+    </div>
+
+
+
+    <!--  About Section  288888888888 -->
+    <div id="ultimo" class="container-fluid wow fadeIn" id="ultimo" data-wow-duration="1.5s">
+        <div class="row">
+            <div class="col-lg-6 has-img-bg28"></div>
+            <div class="col-lg-6">
+                <div class="row justify-content-center">
+                    <div class="col-sm-8 py-5 my-5">
+                        <h2 class="mb-4">8.-y finalizamos nos saldrá un mensaje le damos a aceptar y con eso instalación del VPN terminaría.
+                        </h2>
+
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <!-- REVIEWS Section  -->
     <div id="testmonial" class="container-fluid wow fadeIn bg-dark text-light has-height-lg middle-items">
-        <h2 class="section-title my-5 text-center">REVIEWS</h2>
+        <h2 class="section-title my-5 text-center">CONCLUSIONES</h2>
         <div class="row mt-3 mb-5">
             <div class="col-md-4 my-3 my-md-0">
                 <div class="testmonial-card">
-                    <h3 class="testmonial-title">John Doe</h3>
+                    <h3 class="testmonial-title">Daniel</h3>
                     <h6 class="testmonial-subtitle">Web Designer</h6>
                     <div class="testmonial-body">
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum nobis eligendi, quaerat accusamus ipsum sequi dignissimos consequuntur blanditiis natus. Aperiam!</p>
@@ -461,7 +655,7 @@
             </div>
             <div class="col-md-4 my-3 my-md-0">
                 <div class="testmonial-card">
-                    <h3 class="testmonial-title">Steve Thomas</h3>
+                    <h3 class="testmonial-title">David</h3>
                     <h6 class="testmonial-subtitle">UX/UI Designer</h6>
                     <div class="testmonial-body">
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum minus obcaecati cum eligendi perferendis magni dolorum ipsum magnam, sunt reiciendis natus. Aperiam!</p>
@@ -470,10 +664,19 @@
             </div>
             <div class="col-md-4 my-3 my-md-0">
                 <div class="testmonial-card">
-                    <h3 class="testmonial-title">Miranda Joy</h3>
+                    <h3 class="testmonial-title">Danitza</h3>
                     <h6 class="testmonial-subtitle">Graphic Designer</h6>
                     <div class="testmonial-body">
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, nam. Earum nobis eligendi, dignissimos consequuntur blanditiis natus. Aperiam!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 my-3 my-md-0">
+                <div class="testmonial-card">
+                    <h3 class="testmonial-title">Leonardo</h3>
+                    <h6 class="testmonial-subtitle">UX/UI Designer</h6>
+                    <div class="testmonial-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum minus obcaecati cum eligendi perferendis magni dolorum ipsum magnam, sunt reiciendis natus. Aperiam!</p>
                     </div>
                 </div>
             </div>
@@ -481,23 +684,7 @@
     </div>
 
 
-    <!-- page footer  -->
-    <div class="container-fluid bg-dark text-light has-height-md middle-items border-top text-center wow fadeIn">
-        <div class="row">
-            <div class="col-sm-4">
-                <h3>EMAIL US</h3>
-                <P class="text-muted">info@website.com</P>
-            </div>
-            <div class="col-sm-4">
-                <h3>CALL US</h3>
-                <P class="text-muted">(123) 456-7890</P>
-            </div>
-            <div class="col-sm-4">
-                <h3>FIND US</h3>
-                <P class="text-muted">12345 Fake ST NoWhere AB Country</P>
-            </div>
-        </div>
-    </div>
+
     <div class="bg-dark text-light text-center border-top wow fadeIn">
         <p class="mb-0 py-3 text-muted small">
             &copy; Copyright
@@ -512,11 +699,9 @@
     <!-- bootstrap affix -->
     <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
 
-    <!-- wow.js -->
-    <script src="assets/vendors/wow/wow.js"></script>
 
-    <!-- google maps -->
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCtme10pzgKSPeJVJrG1O3tjR6lk98o4w8&callback=initMap"></script>
+
+
 
     <!-- FoodHut js -->
     <script src="assets/js/foodhut.js"></script>

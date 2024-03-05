@@ -11280,9 +11280,9 @@ pre {
     background-size: contain;
 }
 
-}
+
 .has-img-bg4 {
-    background: url(../imgs/44.png) no-repeat center center;
+    background: url(../imgs/4.jpg) no-repeat center center;
     background-size: contain;
 }
 .has-img-bg5 {
@@ -11299,7 +11299,7 @@ pre {
 }
 
 
-}
+
 .has-img-bg8 {
     background: url(../imgs/8.png) no-repeat center center;
     background-size: contain;
@@ -11325,10 +11325,51 @@ pre {
     background-size: contain;
 }
 .has-img-bg14 {
-    background: url(../imgs/14.png) no-repeat center center;
+    background: url(../imgs/14.jpeg) no-repeat center center;
     background-size: contain;
 }
 
+
+.has-img-bg21 {
+  background: url(../imgs/21.png) no-repeat center center;
+  background-size: contain;
+}
+
+
+.has-img-bg22 {
+  background: url(../imgs/22.png) no-repeat center center;
+  background-size: contain;
+}
+
+.has-img-bg23 {
+  background: url(../imgs/23.png) no-repeat center center;
+  background-size: contain;
+}
+
+
+.has-img-bg24 {
+  background: url(../imgs/24.png) no-repeat center center;
+  background-size: contain;
+}
+.has-img-bg25 {
+  background: url(../imgs/25.png) no-repeat center center;
+  background-size: contain;
+}
+.has-img-bg26 {
+  background: url(../imgs/26.png) no-repeat center center;
+  background-size: contain;
+}
+.has-img-bg27 {
+  background: url(../imgs/27.png) no-repeat center center;
+  background-size: contain;
+}
+
+
+
+.has-img-bg28 {
+  background: url(../imgs/28.png) no-repeat center center;
+  background-size: contain;
+}
 
 
 .has-bg-overlay {
